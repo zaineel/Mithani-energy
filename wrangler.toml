@@ -10,4 +10,4 @@ bucket = ".next"
 pages_build_output_dir = ".next"
 
 [build.environment]
-NODE_VERSION = "18"
+NODE_VERSION = "20"
