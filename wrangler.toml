@@ -1,9 +1,13 @@
 [build]
-command = "npm run build"
+command = "npm install --legacy-peer-deps && npm run build"
 output_directory = ".next"
 
 [site]
 bucket = ".next"
 
+# Add this for Cloudflare Pages
+[build.cloudflare_pages]
+pages_build_output_dir = ".next"
+
 [build.environment]
-NODE_VERSION = "18" 
+NODE_VERSION = "18"
