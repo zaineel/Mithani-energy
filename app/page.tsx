@@ -12,6 +12,8 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <div className='flex min-h-screen flex-col'>
